@@ -5,16 +5,10 @@ echo '
 <head>
 <link href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLfLXmLeMSTt0jOXREfgvdp8IYWnE9_t49PpAiJNvwHTqnKkL4" rel="icon" type="image/x-icon"/>
 </script>
-<title>--==[[IndiShell Lab]]==--</title>
+<title>IndiShell SSRF Lab</title>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <STYLE>
 body {
-	background: url(images/indishell.jpg);
-	background-size: 100% 650px;
-    background-repeat: no-repeat;
-	background-attachment: fixed;
-font-family: Tahoma;
-color: white;
 }
 .side-pan {
    margin: 0;
@@ -121,23 +115,7 @@ A:active {
 //-->
 </script>
 
-<table width="100%" cellspacing="0" cellpadding="0" class="tb1" >
-			
-       <td width="100%" align=center valign="top" rowspan="1">
-           <font color=#ff9933 size=5 face="comic sans ms"><b>--==[[ WKHTMLtoPDF, HTML</font><font color=white size=5 face="comic sans ms"><b> to PDF Converter Server-side</font><font color=green size=5 face="comic sans ms"><b> request forgery ]]==--</font><br>
-			<font color=#ff9933 size=3 face="comic sans ms"><b>--==[[ With </font><font color=white size=3 face="comic sans ms"><b>Love From IndiShell</font><font color=green size=3 face="comic sans ms"><b> Crew]]==--</font>
-		   <div class="hedr"> 
-        <td height="10" align="left" class="td1"></td></tr><tr><td 
-        width="100%" align="center" valign="top" rowspan="1"><font 
-        color="red" face="comic sans ms"size="1"><b> 
-        <font color=#ff9933> 
-        ##########################################</font><font color=white>#############################################</font><font color=green>#############################################</font><br><font color=white>
-        -==[[Greetz to]]==--</font><br> <font color=#ff9933>Zero cool, code breaker ica, r0ot_devil, google_warrior, INX_r0ot, Darkwolf indishell, Baba ,Silent poison India, Magnum sniper, 3thicalnoob Indishell, cyber warrior, Hacker Fantastic and rest of TEAM INDISHELL<br>
-<font color=white>--==[[Love to]]==--</font><br># My Father, my Ex Teacher, Lovey, cold fire hacker, Mannu, ViKi, Incredible, Hardeep Singh, Ashu bhai ji, Rafay Baloch, Soldier Of God, Shafoon, Rehan Manzoor, almas malik, Bhuppi, Mohit, Ffe ^_^, Govind Singh, Shardhanand, Budhaoo, Don(Deepika kaushik) and D3 <br>
-        <b> 
-        <font color=#ff9933> 
-        ##########################################</font><font color=white>#############################################</font><font color=green>#############################################</font>
-						
+<table width="100%" cellspacing="0" cellpadding="0" class="tb1" >	
            </table>
        </table> ';
 
@@ -158,7 +136,7 @@ echo '
 			<form method=post>
 		<tr><td align=center  colspan="2"> 	Member Info  </td></tr>
        <tr>
-	   <td align=right>Handle: </td><td><input type=text name=handle> </td>
+	   <td align=right>Customer name : </td><td><input type=text name=handle> </td>
 	   </tr>
 		
 		<tr><td align=center  colspan="2"> <input type=submit name=insert value="Generate >:D<">  </td></tr>
